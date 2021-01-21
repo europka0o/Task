@@ -68,7 +68,7 @@ std::string SearchLog(std::string path, std::string dat_tim_start, std::string d
     unsigned __int64 date_time_start_i = 0; 
     std::string date_time_current_str; //Текущая дата и время записи лога
     unsigned __int64 date_time_current_i = 0;
-    std::string date_time_end_str = dat_tim_end; //Начальные дата и время для поиска нужных записей по логу
+    std::string date_time_end_str = dat_tim_end; //Конечные дата и время для поиска нужных записей по логу
     unsigned __int64 date_time_end_i = 0;
     
     if (date_time_start_str.length() != 19 && date_time_end_str.length() != 19) { //Если входные строки даты и время меньше либо больше 20, то значит они введены не правильно 
